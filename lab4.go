@@ -18,7 +18,8 @@ var tpl1 = template.Must(template.New("page1").Parse(`
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #121212;
+            color: #e0e0e0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -26,25 +27,27 @@ var tpl1 = template.Must(template.New("page1").Parse(`
             margin: 0;
         }
         .container {
-            background: white;
+            background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 350px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            width: 400px;
             text-align: center;
         }
         h2 {
-            color: #333;
+            color: #bb86fc;
         }
         input[type="text"] {
             width: calc(100% - 20px);
-            padding: 8px;
+            padding: 10px;
             margin: 5px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #bb86fc;
             border-radius: 5px;
+            background: #333;
+            color: #fff;
         }
         input[type="submit"] {
-            background: #007BFF;
+            background: #bb86fc;
             color: white;
             padding: 10px;
             border: none;
@@ -54,11 +57,11 @@ var tpl1 = template.Must(template.New("page1").Parse(`
             margin-top: 10px;
         }
         input[type="submit"]:hover {
-            background: #0056b3;
+            background: #9a67ea;
         }
         .results {
             margin-top: 20px;
-            background: #e9ecef;
+            background: #292929;
             padding: 10px;
             border-radius: 5px;
             text-align: left;
@@ -116,7 +119,8 @@ var tpl2 = template.Must(template.New("page2").Parse(`
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #121212;
+            color: #e0e0e0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -124,25 +128,27 @@ var tpl2 = template.Must(template.New("page2").Parse(`
             margin: 0;
         }
         .container {
-            background: white;
+            background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 350px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            width: 400px;
             text-align: center;
         }
         h2 {
-            color: #333;
+            color: #bb86fc;
         }
         input[type="text"] {
             width: calc(100% - 20px);
-            padding: 8px;
+            padding: 10px;
             margin: 5px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #bb86fc;
             border-radius: 5px;
+            background: #333;
+            color: #fff;
         }
         input[type="submit"] {
-            background: #007BFF;
+            background: #bb86fc;
             color: white;
             padding: 10px;
             border: none;
@@ -152,11 +158,11 @@ var tpl2 = template.Must(template.New("page2").Parse(`
             margin-top: 10px;
         }
         input[type="submit"]:hover {
-            background: #0056b3;
+            background: #9a67ea;
         }
         .results {
             margin-top: 20px;
-            background: #e9ecef;
+            background: #292929;
             padding: 10px;
             border-radius: 5px;
             text-align: left;
@@ -215,7 +221,8 @@ var tpl3 = template.Must(template.New("page3").Parse(`
     <style>
         body {
             font-family: Arial, sans-serif;
-            background-color: #f4f4f4;
+            background-color: #121212;
+            color: #e0e0e0;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -223,25 +230,27 @@ var tpl3 = template.Must(template.New("page3").Parse(`
             margin: 0;
         }
         .container {
-            background: white;
+            background: #1e1e1e;
             padding: 20px;
             border-radius: 10px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            width: 350px;
+            box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+            width: 400px;
             text-align: center;
         }
         h2 {
-            color: #333;
+            color: #bb86fc;
         }
         input[type="text"] {
             width: calc(100% - 20px);
-            padding: 8px;
+            padding: 10px;
             margin: 5px 0;
-            border: 1px solid #ccc;
+            border: 1px solid #bb86fc;
             border-radius: 5px;
+            background: #333;
+            color: #fff;
         }
         input[type="submit"] {
-            background: #007BFF;
+            background: #bb86fc;
             color: white;
             padding: 10px;
             border: none;
@@ -251,11 +260,11 @@ var tpl3 = template.Must(template.New("page3").Parse(`
             margin-top: 10px;
         }
         input[type="submit"]:hover {
-            background: #0056b3;
+            background: #9a67ea;
         }
         .results {
             margin-top: 20px;
-            background: #e9ecef;
+            background: #292929;
             padding: 10px;
             border-radius: 5px;
             text-align: left;
